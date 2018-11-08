@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Menu</title>
+	<h:outputStylesheet library="css" name="styles.css" />
+</h:head>
+<h:body>
+	<h2>Menu de Ações</h2>
+	<br />
+	<h:form>
+		<p:commandLink action="listaAlunos" value="Listar alunos">
+		</p:commandLink>
+		<br />
+		
+		<p:commandLink action="inserirAluno" value = "Inserir aluno" >
+		</p:commandLink>
+		<br />
+		
+		<p:commandLink action="deletarAluno" value = "Deletar aluno" >
+		</p:commandLink>
+		<br />
+		
+		<p:commandLink action="alterarAluno" value = "Alterar Aluno" >
+		</p:commandLink>
+		<br />
+		
+		<p:commandLink action="buscarAluno" value = "Buscar Aluno" >
+		</p:commandLink>
+	</h:form>
+	
+</h:body>
+</html>
